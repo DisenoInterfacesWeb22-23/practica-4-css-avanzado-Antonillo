@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.comun {
+    display: flex   ;
+    color: #000000;
+    border: 0.125em solid blue;
+    background-color: #198fd9;
+    margin  : .313em;
+}
+
+span {
+    margin: auto;
+}
+
+header {
+    height: 75px;
+}
+
+#menu {
+    height: 75px;
+}
+
+body {
+    font-family: 'Open Sans', Verdana, sans-serif, normal;
+    color: #000000;
+}
+
+@media (min-width: 1201px) {
+
+    body {
+        font-size: 1em;
+    }
+
+    #nav1 {
+        height: 75px;
+        width: 99.5%;
+    }
+
+    #nav2 {
+        width: 28.6%;
+        height: 160px;
+        float: left;
+    }
+
+    #cuerpo1 {
+        width: 70.4%;
+        height: 160px;
+        float: left;
+    }
+
+    section {
+        width: 79.6%;
+        float: left;
+    }
+    
+    aside {
+        width: 20%;
+        height: 245px;
+        float: right;
+    }
+
+    footer {
+        height: 50px;
+        width: 99.6%;
+        float:left
+    }
+    
+}
+
+@media (min-width: 701px) and (max-width: 1200px) {
+
+    #nav1 {
+        height: 75px;
+    }
+
+    #nav2 {
+        width: 28.4%;
+        height: 160px;
+        float: left;
+    }
+
+    #cuerpo1 {
+        width: 69%;
+        height: 160px;
+        float: left;
+    }
+
+    aside {
+        height: 75px;
+    }
+
+    footer {
+        height: 50px;
+        width: 98.6%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    header {
+        height: 60px;
+    }
+
+    #menu {
+        height: 60px;
+    }
+
+    #nav1, #nav2 {
+        height: 50px;
+    }
+
+    #cuerpo1 {
+        height: 160px;
+    }
+
+    aside {
+        height: 50px;
+    }
+
+    footer {
+        height: 50px;
+    }
+}
