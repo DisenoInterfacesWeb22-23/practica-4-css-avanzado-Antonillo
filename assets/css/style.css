@@ -16,11 +16,18 @@
 }
 
 .vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+}
+
+@keyframes skew {
+    0% {
+        transform: skewX(20deg);
+    }
+    100% {
+        transform: skewX(-20deg);
+    }
 }
 
 .poli-priva {
@@ -430,12 +437,14 @@ a[href$=".pdf"]:after {
     }
 
     /* ICONS*/
-    .fa-facebook {
+    .fa-facebook-f {
         color: rgb(59, 91, 152);
     }
+
     .fa-twitter {
         color: #55acee;
     }
+
     .fa-whatsapp {
         color: #25d366;
         position: fixed;
@@ -821,12 +830,14 @@ a[href$=".pdf"]:after {
     }
 
     /* ICONS*/
-    .fa-facebook {
+    .fa-facebook-f {
         color: rgb(59, 91, 152);
     }
+
     .fa-twitter {
         color: #55acee;
     }
+
     .fa-whatsapp {
         color: #25d366;
         position: fixed;
@@ -1039,12 +1050,12 @@ a[href$=".pdf"]:after {
     }
 
     #contenedor-flex div {
-        width: 200px;
-        height: 150px;
+        width: 100px;
+        height: 50px;
         color: #000000;
         text-align: center;
-        line-height: 150px;
-        margin: 10px;
+        line-height: 50px;
+        margin: 5px;
         font-size: 1.25em;
         background-color: #ffae00;
         border-radius: 25px;
@@ -1058,11 +1069,11 @@ a[href$=".pdf"]:after {
     }
 
     #contenedor-flex1 div {
-        width: 200px;
-        height: 150px;
+        width: 100px;
+        height: 50px;
         color: #FFF;
         text-align: center;
-        line-height: 150px;
+        line-height: 50px;
         margin: 10px;
         font-size: 20px;
         font-family: Arial;
@@ -1078,11 +1089,11 @@ a[href$=".pdf"]:after {
     }
 
     #contenedor-flex2 div {
-        width: 200px;
-        height: 150px;
+        width: 100px;
+        height: 50px;
         color: #FFF;
         text-align: center;
-        line-height: 150px;
+        line-height: 50px;
         margin: 10px;
         font-size: 20px;
         font-family: Arial;
@@ -1223,7 +1234,7 @@ a[href$=".pdf"]:after {
     }
 
     /* ICONS*/
-    .fa-facebook {
+    .fa-facebook-f {
         color: rgb(59, 91, 152);
     }
     .fa-twitter {
