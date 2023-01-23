@@ -321,12 +321,12 @@ a[href$=".pdf"]:after {
 
     tr:nth-child(even) {
     background-color: #000000;
-    color: #fff;
+    color: #ffffff;
     }
 
     tr:nth-child(odd) {
     background-color: #fff;
-    color: #000; }
+    color: #000000; }
 
     td {
         text-align: center;
@@ -403,7 +403,7 @@ a[href$=".pdf"]:after {
     }
 
     button {
-        color :#ffffff;
+        color :#000000;
         text-align: center;
         background-color: #ffae00;
         border-radius: 4px 4px 4px 4px;
@@ -713,13 +713,13 @@ a[href$=".pdf"]:after {
     }
 
     tr:nth-child(even) {
-    background-color: #777777;
+    background-color: #000000;
     color: #fff;
     }
 
     tr:nth-child(odd) {
-    background-color: #999999;
-    color: #fff; }
+    background-color: #ffffff;
+    color: #000000; }
 
     td {
         text-align: center;
@@ -796,7 +796,7 @@ a[href$=".pdf"]:after {
     }
 
     button {
-        color :#ffffff;
+        color :#000000;
         text-align: center;
         background-color: #ffae00;
         border-radius: 4px 4px 4px 4px;
@@ -1117,13 +1117,13 @@ a[href$=".pdf"]:after {
     }
 
     tr:nth-child(even) {
-    background-color: #777777;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
     }
 
     tr:nth-child(odd) {
-    background-color: #999999;
-    color: #fff; }
+    background-color: #ffffff;
+    color: #000000; }
 
     td {
         text-align: center;
@@ -1200,7 +1200,7 @@ a[href$=".pdf"]:after {
     }
 
     button {
-        color :#ffffff;
+        color :#000000;
         text-align: center;
         background-color: #ffae00;
         border-radius: 4px 4px 4px 4px;
