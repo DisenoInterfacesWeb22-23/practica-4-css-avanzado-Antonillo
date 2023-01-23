@@ -31,14 +31,12 @@
 }
 
 .poli-priva {
-    
     margin-right: 0;
     margin-bottom: .938em;
     margin-left: 1em;
 }
 
-.poli-cookies {
-    
+.poli-cookies {    
     margin-right: 1em;
     margin-bottom: .938em;
     margin-left: 0;
@@ -247,7 +245,7 @@ a[href$=".pdf"]:after {
 
     #contenedor-flex {
         display: flex;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
     }
@@ -322,13 +320,13 @@ a[href$=".pdf"]:after {
     }
 
     tr:nth-child(even) {
-    background-color: #777777;
+    background-color: #000000;
     color: #fff;
     }
 
     tr:nth-child(odd) {
-    background-color: #999999;
-    color: #fff; }
+    background-color: #fff;
+    color: #000; }
 
     td {
         text-align: center;
@@ -639,7 +637,7 @@ a[href$=".pdf"]:after {
 
     #contenedor-flex {
         display: flex;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
     }
@@ -1044,7 +1042,7 @@ a[href$=".pdf"]:after {
 
     #contenedor-flex {
         display: flex;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
     }
